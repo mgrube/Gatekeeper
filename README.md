@@ -12,9 +12,7 @@ must also not have been run as root or used root permissions to install, as is c
 A quick way to determine which apps are modifiable is to navigate to /Applications and type ls -l.
 All of the apps that are owned by the user you're running as should be modifiable. 
 
-## Let's begin!
-
-Step 1) Remove the signature
+### Step 1: Remove the signature
 
 This is the easiest part. For this tutorial, we'll be modifying Firefox, which is a signed app in MacOS.
 
