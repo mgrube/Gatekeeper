@@ -19,7 +19,7 @@ For this, we use the codesign tool that ships with MacOS:
 
 codesign --remove-signature /Applications/Firefox.app/Contents/MacOS/firefox
 
-This will remove the signature that Gatekeeper is checking. This is a good first step, but doesn't get use all the way there.
+This will remove the signature that Gatekeeper is checking. This is a good first step, but doesn't get us all the way there.
 
 ### Step 2: Remove Gatekeeper's quarantine file attribute
 
