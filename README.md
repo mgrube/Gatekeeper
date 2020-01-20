@@ -37,6 +37,6 @@ works for any sort of persistence or surveillance methods for a specific applica
 
 Here is a video of me doing this with Google Chrome after installing as myself:
 
+[![Gatekeeper](https://img.youtube.com/vi/JzS6wfouT8s/0.jpg)](https://www.youtube.com/watch?v=JzS6wfouT8s)
 
-
-I've attached 
+I've attached a demonstration script that will work on Firefox if *your* user installed it. 
