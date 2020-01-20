@@ -23,7 +23,7 @@ This will remove the signature that Gatekeeper is checking. This is a good first
 
 ### Step 2: Remove Gatekeeper's quarantine file attribute
 
-MacOS has an interesting issue to solve: How do they allow developers to write code that runs in their personal folders without needing a signature(signing something every time you compiled it would be a major pain)? Answer: File attributes. Gatekeeper knows whether or not to apply the standard signature checks with the use of the com.apple.quarantine file attribute. 
+MacOS has an interesting issue to solve: How do they allow developers to write code that runs in their personal folders without needing a signature? Answer: File attributes. Gatekeeper knows whether or not to apply the standard signature checks with the use of the com.apple.quarantine file attribute. 
 
 To remove this annoyance, let's get rid of that annoying little attribute for the whole firefox folder:
 
